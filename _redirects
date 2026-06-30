@@ -1,3 +1,9 @@
-# Netlify : sert l'app (FINEA.html) à la racine et sur toute route.
-# 200 = rewrite (l'URL reste propre, pas de redirection visible).
-/*    /FINEA.html    200
+# Pages légales autonomes (HTML pur, lisibles par les robots — ex. validation Google OAuth).
+# Les fichiers .html sont servis directement ; ces règles donnent en plus des URLs propres.
+/privacy            /confidentialite.html   200
+/confidentialite    /confidentialite.html   200
+/cgu                /cgu.html               200
+/conditions         /cgu.html               200
+
+# L'app (FINEA.html) sur toutes les autres routes. 200 = rewrite (l'URL reste propre).
+/*                  /FINEA.html             200

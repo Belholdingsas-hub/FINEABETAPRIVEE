@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Politique de confidentialité — FINEA</title>
+  <meta name="description" content="Politique de confidentialité de FINEA (BEL HOLDING) : données collectées, finalités, durées, sous-traitants, droits RGPD.">
+  <style>
+    :root { --navy:#0A1F44; --gold:#C9A961; --ink:#2a2a2a; --ink-soft:#4a4a4a; --cream:#faf7f2; --line:#e6e1d8; }
+    * { box-sizing: border-box; }
+    body { margin:0; background:var(--cream); color:var(--ink); font-family:-apple-system,'Segoe UI',Roboto,Helvetica,Arial,sans-serif; line-height:1.65; }
+    .wrap { max-width:760px; margin:0 auto; padding:48px 22px 80px; }
+    .brand { font-family:Georgia,'Times New Roman',serif; font-size:26px; font-weight:700; color:var(--navy); letter-spacing:.04em; text-decoration:none; }
+    .brand span { color:var(--gold); }
+    h1 { font-family:Georgia,serif; color:var(--navy); font-size:30px; margin:28px 0 6px; }
+    .updated { color:#999; font-size:13px; margin-bottom:28px; }
+    h3 { color:var(--navy); font-size:18px; margin:28px 0 8px; }
+    p, li { color:var(--ink-soft); font-size:15px; }
+    ul { padding-left:20px; }
+    li { margin-bottom:6px; }
+    a { color:var(--gold); }
+    strong { color:var(--navy); }
+    .back { display:inline-block; margin-top:40px; padding:11px 20px; background:var(--navy); color:var(--cream); text-decoration:none; border-radius:100px; font-size:14px; font-weight:600; }
+    footer { margin-top:48px; padding-top:20px; border-top:1px solid var(--line); color:#999; font-size:12px; }
+  </style>
+</head>
+<body>
+  <div class="wrap">
+    <a class="brand" href="https://hellofinea.com">FINEA<span>.</span></a>
+    <h1>Politique de confidentialité</h1>
+    <div class="updated">Dernière mise à jour : 30 juin 2026</div>
+
+    <h3>1. Responsable de traitement</h3>
+    <p><strong>BEL HOLDING</strong> (SAS, RCS Paris 994 382 786, 200 rue de la Croix Nivert, 75015 Paris), opérateur de FINEA, est responsable du traitement des données personnelles collectées via le service FINEA.</p>
+    <p>Contact (demandes RGPD, exercice des droits) : <strong>rgpd@hellofinea.com</strong></p>
+
+    <h3>2. Données collectées</h3>
+    <p>Dans le cadre du service, FINEA collecte les catégories de données suivantes :</p>
+    <ul>
+      <li><strong>Identité</strong> : prénom, nom, email, date de naissance (optionnelle, utilisée pour les benchmarks par tranche d'âge) ;</li>
+      <li><strong>Réponses au diagnostic financier</strong> (15 questions, 5 axes patrimoniaux) ;</li>
+      <li><strong>Saisies utilisateur</strong> : budget mensuel, dettes, épargne, projets, paramètres patrimoniaux ;</li>
+      <li><strong>Historique</strong> : score, progression, bilans mensuels (Rituel) ;</li>
+      <li><strong>Paiement</strong> : email de facturation, montant et type d'abonnement (les données carte bancaire ne transitent jamais par nos serveurs, elles sont traitées exclusivement par Stripe).</li>
+    </ul>
+
+    <h3>3. Finalité</h3>
+    <ul>
+      <li>fournir le service FINEA et personnaliser les analyses ;</li>
+      <li>communiquer avec l'utilisateur (emails de service, accompagnement bêta) ;</li>
+      <li>assurer la facturation et le respect de nos obligations comptables ;</li>
+      <li>améliorer le service sur base agrégée et anonymisée.</li>
+    </ul>
+
+    <h3>4. Base légale</h3>
+    <p>Le traitement repose sur l'exécution du contrat (CGU) et, pour la communication bêta, sur l'intérêt légitime de BEL HOLDING à itérer son produit avec ses premiers utilisateurs.</p>
+
+    <h3>5. Stockage</h3>
+    <p>Les données saisies par l'utilisateur sont conservées sur les serveurs Supabase (PostgreSQL, région UE Francfort) et, pour le confort d'utilisation hors-ligne et la sauvegarde d'un diagnostic anonyme avant inscription, en localStorage sur le navigateur de l'utilisateur.</p>
+
+    <h3>6. Durée de conservation</h3>
+    <ul>
+      <li><strong>Compte actif</strong> : durée d'utilisation + 3 ans après le dernier accès ;</li>
+      <li><strong>Lead (email seul)</strong> : 12 mois sans inscription, puis suppression ;</li>
+      <li><strong>Factures et données comptables</strong> : 10 ans (art. L.123-22 Code de commerce) ;</li>
+      <li>L'utilisateur peut à tout moment demander la suppression anticipée de ses données (hors obligations légales de conservation comptable).</li>
+    </ul>
+
+    <h3>7. Destinataires &amp; sous-traitants</h3>
+    <p>Aucune donnée n'est cédée, louée ou vendue à des tiers. Nous faisons appel aux sous-traitants suivants, strictement nécessaires à la fourniture du service :</p>
+    <ul>
+      <li><strong>Netlify, Inc.</strong> (États-Unis, SCCs RGPD) — hébergement du site (front) ;</li>
+      <li><strong>Supabase Inc.</strong> (Singapour, SCCs RGPD) — hébergement base de données et Edge Functions ;</li>
+      <li><strong>Stripe Payments Europe, Ltd.</strong> (Irlande) — traitement des paiements et abonnements ;</li>
+      <li><strong>Brevo</strong> (Sendinblue SAS, Paris, France) — envoi des emails transactionnels et marketing ;</li>
+      <li><strong>OVH SAS</strong> (Roubaix, France) — gestion du nom de domaine.</li>
+    </ul>
+
+    <h3>8. Cookies &amp; identifiants techniques</h3>
+    <p>Aucun cookie publicitaire ou de traçage marketing n'est utilisé pendant la bêta. Un identifiant technique anonyme (UUID localStorage) est créé pour permettre la sauvegarde du diagnostic d'un visiteur non encore inscrit, et son transfert vers son compte après inscription.</p>
+
+    <h3>9. Droits RGPD</h3>
+    <p>Conformément au Règlement (UE) 2016/679 (RGPD) et à la loi Informatique et Libertés, l'utilisateur dispose d'un droit d'accès, de rectification, d'effacement, de portabilité, d'opposition et de limitation. Toute demande est à adresser à <strong>rgpd@hellofinea.com</strong>.</p>
+    <p>En cas de difficulté, l'utilisateur peut introduire une réclamation auprès de la <strong>CNIL</strong> (<a href="https://www.cnil.fr" target="_blank" rel="noopener">cnil.fr</a>).</p>
+
+    <h3>10. Sécurité</h3>
+    <p>BEL HOLDING met en œuvre les mesures techniques et organisationnelles appropriées pour protéger les données traitées contre l'accès non autorisé, la perte ou l'altération. Pendant la bêta, ces mesures restent celles d'un service en phase précoce.</p>
+
+    <a class="back" href="https://hellofinea.com">← Retour à FINEA</a>
+    <footer>FINEA est une marque exploitée par BEL HOLDING · SAS · RCS Paris 994 382 786 · 200 rue de la Croix Nivert, 75015 Paris · contact@hellofinea.com</footer>
+  </div>
+</body>
+</html>
